@@ -1,3 +1,4 @@
+/*=========================CORPO GERAL DA PÁGINA============================*/
 #index-body{
     border: 1px solid black;
 }
@@ -14,11 +15,16 @@
 #index-body img{
     max-width: 100%;
 }
+
 /*=========================CABEÇALHO DA PÁGINA===========================*/
 .main-header{
     border: 2px solid black;
     border-radius: 3px;
-    margin: 1rem;
+    margin: 0.5rem 1rem;
+
+    display: inline-block;
+
+    width: 97%;
 }
 
 .main-header h1{
@@ -35,6 +41,9 @@
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+
+    display: inline;
+    float: left;
 }
 
 #main-header-logo h1{
@@ -47,28 +56,34 @@
 }
 
 #main-header-buttons{
-    border: 1px solid black;
+    max-width: 50%;
 
     display: inline-block;
-}
+    
+    float: center;
 
-#main-header-buttons ul{
-    border: 1px solid black;
+    margin: 2rem 5rem;
 }
 
 #main-header-buttons ul li{
     display: inline;
     list-style: none;
 
-    border: 1px solid orange;
-    
-    margin: 0rem 0.2rem;
+    border: 3px solid orange;
+    border-radius: 10px;
+
+    margin: 0rem 1rem;
 
     font-size: 200%;
 }
 
 #main-header-buttons ul li a{
     text-decoration: none;
+    display: inline-block;
+
+    padding: 0 0.3rem;
+
+    color: black;
 }
 
 /*========================================CORPO DA PÁGINA========================================*/
@@ -76,8 +91,12 @@
     width: 32.5%;
     
     border: 1px solid black;
+    border-radius: 5px;
 
-    padding: 0rem 1.8rem;
+    margin: 0rem 1rem;
+    padding: 0rem 1rem;
 
     display: flex;
+
+    text-align: justify;
 }
